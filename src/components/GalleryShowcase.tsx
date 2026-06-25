@@ -12,19 +12,19 @@ export default function GalleryShowcase() {
   const getProductImage = (id: string, category: string) => {
     switch (id) {
       case "g1": // Unpainted door frames
-        return "/src/assets/images/door_frames.jpeg";
+        return "/images/door_frames.jpeg";
       case "g2": // Red oxide door frames
-        return "/src/assets/images/door_frames_red.jpeg";
+        return "/images/door_frames_red.jpeg";
       case "g3": // Shelving
-        return "/src/assets/images/shelving.jpeg";
+        return "/images/shelving.jpeg";
       case "g4": // Silver sliding gate
-        return "/src/assets/images/sliding_gate_silver.jpeg";
+        return "/images/sliding_gate_silver.jpeg";
       case "g5": // Red sliding gate
-        return "/src/assets/images/sliding_gate_red.jpeg";
+        return "/images/sliding_gate_red.jpeg";
       case "g6": // Truck bed bending
-        return "/src/assets/images/truck_bed_bending.jpeg";
+        return "/images/truck_bed_bending.jpeg";
       default:
-        return "/src/assets/images/hero_fabrication_harare_1781966200274.jpg";
+        return "/images/hero_fabrication_harare_1781966200274.jpg";
     }
   };
 

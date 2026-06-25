@@ -9,7 +9,7 @@ interface AboutSectionProps {
 
 export default function AboutSection({ onLearnMoreServices }: AboutSectionProps) {
   // Directly referencing our custom-generated headshot of T Musara MD
-  const mdAvatarUrl = "/src/assets/images/t_musara_director_1781966245270.jpg";
+  const mdAvatarUrl = "/images/t_musara_director_1781966245270.jpg";
 
   return (
     <section id="about" className="py-20 relative overflow-hidden bg-white text-slate-800">

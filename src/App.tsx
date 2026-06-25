@@ -75,7 +75,7 @@ export default function App() {
   };
 
   // Direct reference to prime custom generated factory hero photo
-  const heroBackdropUrl = "/src/assets/images/hero_fabrication_harare_1781966200274.jpg";
+  const heroBackdropUrl = "/images/hero_fabrication_harare_1781966200274.jpg";
 
   return (
     <div className="bg-industrial-dark text-white min-h-screen relative font-sans selection:bg-industrial-orange selection:text-white">
