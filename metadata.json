@@ -1,0 +1,6 @@
+{
+  "name": "Rivasos Enterprises",
+  "description": "Premium industrial sheet metal fabrication and processing company in Harare, Zimbabwe.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

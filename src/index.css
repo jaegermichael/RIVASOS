@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,400&family=JetBrains+Mono:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Poppins", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-industrial-blue: #0b2545;
+  --color-industrial-light-blue: #134074;
+  --color-industrial-steel: #8da9c4;
+  --color-industrial-dark: #0f141d;
+  --color-industrial-orange: #f26419;
+  --color-industrial-gold: #f6ae2d;
+  
+  --animate-blueprint-scan: blueprint-scan 8s linear infinite;
+  --animate-steel-shimmer: steel-shimmer 4s ease infinite;
+}
+
+body {
+  font-size: 1.05rem; /* Slightly larger text size */
+  line-height: 1.625;
+}
+
+@keyframes blueprint-scan {
+  0% { transform: translateY(-100%); }
+  100% { transform: translateY(100%); }
+}
+
+@keyframes steel-shimmer {
+  0%, 100% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+}
+
+/* Custom Steel texture backdrop */
+.steel-grid {
+  background-size: 40px 40px;
+  background-image: 
+    linear-gradient(to right, rgba(141, 169, 196, 0.05) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(141, 169, 196, 0.05) 1px, transparent 1px);
+}
+
+.blueprint-grid {
+  background-size: 20px 20px;
+  background-image: 
+    linear-gradient(to right, rgba(19, 64, 116, 0.15) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(19, 64, 116, 0.15) 1px, transparent 1px);
+}
+
+.diagonal-cut {
+  clip-path: polygon(0 0, 100% 0, 100% 85%, 0 100%);
+}
+
+.diagonal-cut-reverse {
+  clip-path: polygon(0 15%, 100% 0, 100% 100%, 0 100%);
+}
+
+.steel-gloss {
+  background: linear-gradient(135deg, #1b263b 0%, #0d1b2a 50%, #1e293b 100%);
+  position: relative;
+  overflow: hidden;
+}
+
+.steel-gloss::after {
+  content: '';
+  position: absolute;
+  top: -50%;
+  left: -50%;
+  width: 200%;
+  height: 200%;
+  background: linear-gradient(
+    to bottom right,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0) 40%,
+    rgba(255, 255, 255, 0.03) 50%,
+    rgba(255, 255, 255, 0) 60%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  transform: rotate(30deg);
+  pointer-events: none;
+}
+
+.industrial-border {
+  border-image: linear-gradient(to right, #f26419, #134074) 1;
+}
+
+/* Custom scrollbar and sleek layouts */
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #0f141d;
+}
+::-webkit-scrollbar-thumb {
+  background: #233045;
+  border-radius: 2px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #f26419;
+}
