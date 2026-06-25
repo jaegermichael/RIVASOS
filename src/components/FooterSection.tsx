@@ -36,7 +36,7 @@ export default function FooterSection() {
             </div>
 
             <p className="text-xs text-gray-300 leading-relaxed">
-              Precision sheet metal fabrication, press folding, and guillotine shearing. Proudly manufacturing doors, frames, gutters, and architectural gates in Harare, Zimbabwe since 2013.
+              Precision sheet metal fabrication, press folding, and guillotine shearing. Proudly manufacturing doors, frames, gutters, and architectural gates in Harare, Zimbabwe since {COMPANY_DETAILS.founded}.
             </p>
 
             <div className="pt-2 flex items-center space-x-2 text-[10px] font-mono text-industrial-steel">
@@ -89,7 +89,7 @@ export default function FooterSection() {
         <div className="pt-8 flex flex-col md:flex-row justify-between items-center text-[10px] font-mono text-industrial-steel gap-4">
           <div className="text-center md:text-left leading-normal">
             <p>© {currentYear} {COMPANY_DETAILS.name}. All Rights Reserved.</p>
-            <p className="mt-1 text-industrial-steel/60">Registered Pvt Ltd in Zimbabwe Co. Register Group. Founded 2013.</p>
+            <p className="mt-1 text-industrial-steel/60">Registered Pvt Ltd in Zimbabwe Co. Register Group. Founded {COMPANY_DETAILS.founded}.</p>
           </div>
           
           <div className="flex items-center space-x-4">

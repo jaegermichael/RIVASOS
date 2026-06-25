@@ -35,7 +35,7 @@ export default function AboutSection({ onLearnMoreServices }: AboutSectionProps)
             <div className="space-y-2">
               <div className="flex items-center space-x-2">
                 <span className="h-[2px] w-8 bg-industrial-orange"></span>
-                <span className="font-mono text-xs text-industrial-orange uppercase tracking-widest font-bold">FOUNDED 2013 • HARARE</span>
+                <span className="font-mono text-xs text-industrial-orange uppercase tracking-widest font-bold">FOUNDED {COMPANY_DETAILS.founded} • HARARE</span>
               </div>
               <h2 className="text-3xl md:text-4xl font-sans font-bold text-slate-900 uppercase tracking-tight">
                 PROVEN IN METALS. <br />
@@ -44,7 +44,7 @@ export default function AboutSection({ onLearnMoreServices }: AboutSectionProps)
             </div>
 
             <p className="text-slate-700 leading-relaxed text-sm md:text-md">
-              Rivasos Enterprises Pvt Ltd has positioned itself as Harare's benchmark sheet metal processing and fabrication partner. Operative since 2013 from our heavy engineering workshop in Workington, we specialize in high-capacity slicing, computerized bending, robust architectural doors frames, and bespoke blacksmithing assemblies.
+              {COMPANY_DETAILS.name} has positioned itself as Harare's benchmark sheet metal processing and fabrication partner. Operative since {COMPANY_DETAILS.founded} from our heavy engineering workshop in Workington, we specialize in high-capacity slicing, computerized bending, robust architectural doors frames, and bespoke blacksmithing assemblies.
             </p>
 
             <p className="text-slate-500 leading-relaxed text-xs md:text-sm font-sans">

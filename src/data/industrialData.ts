@@ -1,9 +1,9 @@
 import { Service, ProcessStep, GalleryItem, MaterialDensity, Testimonial } from "../types";
 
 export const COMPANY_DETAILS = {
-  name: "Rivasos Enterprises Pvt Ltd",
-  shortName: "Rivasos Enterprises",
-  founded: "2013",
+  name: "RIVASOS ENTERPRISES PVT LTD",
+  shortName: "RIVASOS ENTERPRISES",
+  founded: "2018",
   address: "15 Bristol Rd, Workington, Harare, Zimbabwe",
   email: "rivasosenterprises@gmail.com",
   hotline1: "0772 253 464",
@@ -264,7 +264,7 @@ export const TESTIMONIALS: Testimonial[] = [
 ];
 
 export const TRUST_METRICS = [
-  { id: "years", value: "12+", label: "Years Industrial Presence" },
+  { id: "years", value: "8+", label: "Years Industrial Presence" },
   { id: "steel", value: "4,500+", label: "Tons Sheared & Folded" },
   { id: "turnaround", value: "24-48 hr", label: "Std Cut & Bend Lead Time" },
   { id: "zimbabwe", value: "100%", label: "Harare Local Built & Owned" },

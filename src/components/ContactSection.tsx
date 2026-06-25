@@ -68,7 +68,7 @@ export default function ContactSection() {
                   <div className="bg-industrial-dark p-3 border border-industrial-steel/10">
                     <strong className="text-white uppercase text-[11px] block text-industrial-orange">WAREHOUSE ACCESS:</strong>
                     <p className="mt-1 leading-normal">
-                      Rivasos Enterprises Pvt Ltd,<br />
+                      {COMPANY_DETAILS.name},<br />
                       {COMPANY_DETAILS.address} <br />
                       (Workington Heavy Industrial Sector)
                     </p>

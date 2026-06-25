@@ -147,7 +147,7 @@ export default function App() {
                 transition={{ duration: 0.8, delay: 0.4 }}
                 className="text-gray-300 text-sm md:text-md font-sans max-w-2xl leading-relaxed"
               >
-                Rivasos Enterprises Pvt Ltd delivers high-capacity motorized shearing, computer-guided press bending, robust door frames, security gates, and fascia flashings. Engineered for domestic builders and heavy industrial contractors with <strong>same-day dispatch limits</strong>.
+                {COMPANY_DETAILS.name} delivers high-capacity motorized shearing, computer-guided press bending, robust door frames, security gates, and fascia flashings. Engineered for domestic builders and heavy industrial contractors with <strong>same-day dispatch limits</strong>.
               </motion.p>
 
               {/* CTAs triggers */}
@@ -196,7 +196,7 @@ export default function App() {
               initial={{ opacity: 0, x: 50 }}
               animate={{ opacity: 1, x: 0 }}
               transition={{ duration: 0.8, delay: 0.4 }}
-              className="lg:col-span-4 hidden lg:block font-mono text-xs text-industrial-steel"
+              className="lg:col-span-4 block font-mono text-xs text-industrial-steel"
             >
               <div className="bg-[#122335]/70 border-l-2 border-industrial-orange p-6 backdrop-blur-md space-y-4 shadow-2xl">
                 <span className="text-[10px] text-industrial-orange block uppercase font-bold tracking-widest">WORKSHOP LEDGER FEED</span>
