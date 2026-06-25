@@ -114,7 +114,7 @@ export default function Navbar({ activeSection, setActiveSection }: NavbarProps)
           </div>
           <div>
             <div className="flex items-baseline space-x-1 leading-none">
-              <span className="font-sans font-bold text-sm md:text-lg text-white tracking-tight uppercase">{COMPANY_DETAILS.name}</span>
+              <span className="font-sans font-bold text-xs md:text-base text-white tracking-tight uppercase">{COMPANY_DETAILS.name}</span>
             </div>
             <p className="text-[9px] font-mono tracking-widest text-industrial-steel uppercase block leading-none mt-0.5">Sheet Metal Fabrication</p>
           </div>
