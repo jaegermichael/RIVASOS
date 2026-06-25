@@ -30,8 +30,7 @@ export default function FooterSection() {
                 <div className="w-[3px] h-5 bg-industrial-orange rounded-xs"></div>
               </div>
               <div>
-                <span className="font-sans font-extrabold text-white text-md uppercase tracking-tight">RIVASOS</span>
-                <span className="text-[9px] font-mono text-industrial-orange ml-1">PVT LTD</span>
+                <span className="font-sans font-extrabold text-white text-md uppercase tracking-tight">Rivasos Enterprises Private Limited</span>
               </div>
             </div>
 
